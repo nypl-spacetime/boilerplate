@@ -1,4 +1,4 @@
-# NYPL Boilerplate - Webpack + React
+# NYPL Labs Boilerplate - Webpack + React
 
 ## Install
 
