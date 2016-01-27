@@ -10,7 +10,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/',
+    publicPath: './',
   },
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
@@ -38,7 +38,7 @@ module.exports = {
       include: path.join(__dirname, 'app'),
     }, {
       test: /\.css$/,
-      loader: 'style-loader!css-loader?root=dist/',
+      loader: 'style-loader!css-loader',
     }, {
       test: /\.ttf$/,
       loader: 'file-loader',
