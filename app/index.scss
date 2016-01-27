@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-LightIt.ttf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-It.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-Semibold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/SourceSansPro-SemiboldIt.ttf');
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Base style & classes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+$background-color: yellow;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  color: #333;
+  background-color: $background-color;
+  font-family: 'Source Sans Pro', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-image: url('./images/5e66b3e8-e539-d471-e040-e00a180654d7.jpg');
+}
