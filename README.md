@@ -1,4 +1,4 @@
-# NYPL Labs Webpack + React boilerplate
+# NYPL Boilerplate - Webpack + React
 
 ## Install
 
@@ -22,4 +22,12 @@ It is recommended that you add an [ESLint](http://eslint.org/) plugin to your pr
 
 ```shell
 npm run build
+```
+
+## Deploy
+
+Runs build script, writes contents of `dist` directory to `gh-pages` branch, and pushes to GitHub, using [git-directory-deploy](https://github.com/lukekarrys/git-directory-deploy):
+
+```shell
+npm run deploy
 ```
